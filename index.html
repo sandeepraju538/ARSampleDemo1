@@ -92,7 +92,7 @@
 				
 				new RGBELoader()
 					.setDataType(THREE.UnsignedByteType)
-					.setPath('textures/')
+					.setPath('assets/textures/')
 					.load('photo_studio_01_1k.hdr', function(texture){
 
 						envmap = pmremGenerator.fromEquirectangular(texture).texture;
